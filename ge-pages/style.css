@@ -1,0 +1,230 @@
+.about{
+    padding: 1rem 22%;
+    margin-top: 3rem;
+  }
+  .about-us .about-title h2{
+    font-size: 5rem;
+    color: var(--bg);
+  }
+  .about-us .about-stuff p{
+    margin-top: 2rem;
+    color: black;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  .about .about-btn{
+    margin-top: 4rem;
+  }
+  .about .about-btn button{
+    border: 1px solid var(--bg);
+    outline: 0;
+    /*background-color: orangered;*/
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 12px 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  .about .about-btn button:hover{
+    /*background-color: orange;*/
+    background-color: var(--bg);
+    color: white;
+  }
+  .about .about-card .about-cards i{
+    font-size: 3rem;
+    color: var(--bg);
+    cursor: pointer;
+  }
+  .about-card{
+    margin-top: 8rem;
+    align-items: center;
+    display: flex;
+  }
+  .about-card .about-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 7rem;
+  }
+  .about-cards p{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+  }
+  .about-us p{
+    color: black;
+  }
+  .about-cards i{
+    text-align: center;
+  }
+  .about .about1, .about2, .about3, i{
+    text-align: center;
+  }
+  .about .about-text p{
+    text-align: center;
+  }
+  @media(max-width:1150px){
+    .about .about-cards{
+      display: grid;
+      grid-template-columns: 1fr;
+    } 
+  }
+  @media(max-width:1024px){
+    .about .about-cards{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .about{
+      margin: 1rem;
+      padding: 0;
+    }
+    .about .about-title h2{
+      text-align: left;
+    }
+    
+  }
+  .about-title h3{
+    font-size: 3.6rem;
+    color: var(--bg);
+    margin-top: 3rem;
+  }
+  /* project */
+  .project{
+    padding: 1rem 22%;
+    margin-top: 3rem;
+    overflow: hidden;
+  }
+  .project .project-title h1{
+    color: var(--bg);
+    font-size: 4rem;
+    justify-content: flex-start;
+  }
+  .project .projects{
+    margin-top: 7rem;
+    gap: 3rem;
+  }
+  .projects{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .projects .project-box1, .project-box2, .project-box3{
+    display: flex;
+    gap: 4rem;
+  }
+  .projects .project-box2, .project-box3{
+    margin-top: 7rem;
+  }
+  .projects img{
+    cursor: pointer;
+  }
+  .projects p{
+    font-size: 1.8rem;
+  }
+  .p2{
+    display: none;
+  }
+  @media(max-width:1024px){
+    .projects .p1{
+      display: none;
+    }
+    .projects .p2{
+      display: block;
+    }
+    .projects img{
+      width: 280px;
+      height: 160px;
+    }
+    .projects p{
+      font-size: 0.9rem;
+    }
+  }
+  @media(max-width:1500px){
+    .projects p{
+      font-size: 1.2rem;
+    }
+    .projects .project-box1, .project-box2, .project-box3{
+      flex-direction: column;
+    }
+    .project .projects img{
+      width: 500px;
+      height: 300px;
+    }
+    .project{
+      margin: 0;
+      padding: 1rem;
+      align-items: start;
+      text-align: start;
+    }
+    .projects .p1{
+      display: none;
+    }
+    .projects .p2{
+      display: block;
+    }
+  }
+  @media(max-width:768px){
+    .project .projects img{
+      width: 400px;
+      height: 225px;
+    }
+    .project .project-title h1{
+      font-size: 3.6rem;
+    }
+  }
+  @media(max-width:600px){
+    .project .project-title h1{
+      font-size: 3rem;
+    }
+  }
+  @media(max-width:576px){
+    .project .projects img{
+      width: 300px;
+      height: 150px;
+    }
+  }
+@media(max-width:1024px){
+  .about .about-title h2{
+    font-size: 3.6rem;
+  }
+  .about .about-title h3{
+    font-size: 3rem;
+  }
+  .about .about-stuff{
+    text-align: start;
+    align-items: start;
+  }
+}
+@media(max-width:600px){
+  .about .about-title h2{
+    font-size: 2.4rem;
+  }
+  .about p{
+    font-size: 1.2rem;
+  }
+  .about .about-title h3{
+    font-size: 1.6rem;
+  }
+  .about .about-stuff{
+    text-align: start;
+    align-items: start;
+  }
+}
+.ban{
+  margin-top: 1rem;
+}
+.nav__logo img{
+  width: 180px;
+}
+@media(max-width:1280px){
+  .nav__logo img{
+      width: 150px;
+  }
+}
+@media(max-width:1250px){
+  .nav__logo img{
+      width: 120px;
+  }
+}
+@media(max-width:1024px){
+  .nav__logo img{
+      width: 100px;
+  }
+}
